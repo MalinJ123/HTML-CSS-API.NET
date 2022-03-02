@@ -34,11 +34,16 @@ a        {
        text-align: center;
    }
 
-   .navbar-grid .branding h1{
+   .navbar-grid .branding h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: ;
+    font-weight: 700;
+    font-size: 40px;
    }
-
+   .navbar-grid .branding p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+   }
  .navbar-grid .navbars{
      grid-column: 2;
  }
