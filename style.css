@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Poppins&family=Roboto:ital@1&display=swap');
+
+/* font-family: 'Karla', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif; */
+
+ body {
+    font-family: 'Karla', sans-serif;
+        }
+a        {
+    color: #6c90b9;
+    text-decoration: none;
+            }
+
+ a:hover {
+     color:#5e6e80;
+     text-decoration: underline;
+ }
+
+.bg-blue-gradient{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgba(169,199,236,1) 100%);
+   }
+
+.navbar-grid{
+    display:grid; 
+    grid-template-columns: 1fr 4fr;
+   }
+
+   .navbar-grid .branding{
+       grid-column: 1;
+       background-color: #ffffff;
+       text-align: center;
+   }
+
+   .navbar-grid .branding h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: ;
+   }
+
+ .navbar-grid .navbars{
+     grid-column: 2;
+ }
